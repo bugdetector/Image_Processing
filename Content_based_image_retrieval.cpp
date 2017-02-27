@@ -1,3 +1,5 @@
+//'Dataset' adlı bir dizin ve bu dizin içerisinde 'Color' ve 'Texture' adlı iki dizin bulunmalıdır.
+// Resimler bu dizinlerin içerisinde olmalıdır.
 #include <cstdlib>
 #include <stdio.h>
 #include <iostream>
