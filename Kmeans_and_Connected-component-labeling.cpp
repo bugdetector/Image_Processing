@@ -25,7 +25,7 @@ float euclideanDist(color first,color second);
 //this funtiction computes euclidian distance and returns result as float
 int findMin(float *arr,int size);
 //founds minimum value in an float array and returns it's index
-int main(int argc, char** argv) {
+int main(int argc, char** argv) {//takes input image as an argument
     Mat image = imread(argv[1],1);
     if(image.empty()){
         printf("Dosya yüklenemedi!!\n");
